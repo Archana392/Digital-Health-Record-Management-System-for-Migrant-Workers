@@ -72,10 +72,10 @@ The Smart Hospital Patient Management System requires a centralized database to 
 
 # Deliverable
 
-✅ Database Requirement Analysis Completed
+➜ Database Requirement Analysis Completed
 
-✅ Table List Prepared
+➜ Table List Prepared
 
-✅ Database Entities Identified
+➜ Database Entities Identified
 
-✅ Ready for ER Diagram Design
+➜ Ready for ER Diagram Design
