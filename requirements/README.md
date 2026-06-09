@@ -2,20 +2,20 @@
 
 ## Overview
 
-The Smart Hospital Patient Management System requires a centralized database to manage patients, doctors, appointments, prescriptions, departments, and hospital administration activities. The database is designed to ensure data consistency, security, and efficient retrieval of healthcare information.
+The Digital Health Record Management System for Migrant Workers requires a centralized database to manage migrant worker health records, healthcare providers, appointments, prescriptions, departments, notifications, and administrative activities. The database is designed to ensure data security, consistency, and efficient access to healthcare information across different locations.
 
 ## Database Requirements
 
 ### Functional Requirements
 
-- Store patient information and medical history.
-- Store doctor details and specialization information.
+- Store migrant worker personal and health information.
+- Store healthcare provider details and specialization information.
 - Manage appointment scheduling and tracking.
-- Maintain prescription records.
-- Manage hospital departments.
+- Maintain digital health records and prescriptions.
+- Manage healthcare departments.
 - Support user authentication and authorization.
-- Generate reports for administrative purposes.
-- Send notifications and appointment reminders.
+- Generate healthcare reports and analytics.
+- Send health alerts and appointment notifications.
 
 ### Non-Functional Requirements
 
@@ -32,41 +32,60 @@ The Smart Hospital Patient Management System requires a centralized database to 
 | S.No | Table Name | Description |
 |-------|------------|-------------|
 | 1 | Users | Stores login credentials and user roles |
-| 2 | Patients | Stores patient personal and medical information |
-| 3 | Doctors | Stores doctor information and specialization details |
+| 2 | Migrant_Workers | Stores migrant worker personal and health information |
+| 3 | Healthcare_Providers | Stores healthcare provider details and specialization information |
 | 4 | Admins | Stores administrator information |
-| 5 | Nurses | Stores nurse/staff information |
-| 6 | Departments | Stores hospital department details |
+| 5 | Healthcare_Staff | Stores healthcare staff information |
+| 6 | Departments | Stores healthcare department details |
 | 7 | Appointments | Stores appointment booking information |
-| 8 | Medical_Records | Stores patient diagnosis and treatment history |
-| 9 | Prescriptions | Stores medicines prescribed by doctors |
-| 10 | Notifications | Stores appointment reminders and alerts |
+| 8 | Health_Records | Stores diagnosis and treatment history |
+| 9 | Prescriptions | Stores medicines prescribed by healthcare providers |
+| 10 | Notifications | Stores health alerts and appointment reminders |
 
 ---
 
 # Entity Relationships
 
-### Patient
-- Can book multiple appointments.
-- Can have multiple medical records.
-- Can receive multiple prescriptions.
+## Migrant Worker
 
-### Doctor
-- Can attend multiple appointments.
+- Can book multiple appointments.
+- Can have multiple health records.
+- Can receive multiple prescriptions.
+- Can receive multiple notifications.
+
+## Healthcare Provider
+
+- Can manage multiple appointments.
 - Can create multiple prescriptions.
+- Can maintain multiple health records.
 - Belongs to a department.
 
-### Appointment
-- Links a patient and a doctor.
+## Appointment
+
+- Links a migrant worker and a healthcare provider.
 - Stores appointment date and status.
 
-### Prescription
-- Created by a doctor.
-- Assigned to a patient.
+## Prescription
 
-### Department
-- Contains multiple doctors.
+- Created by a healthcare provider.
+- Assigned to a migrant worker.
+
+## Health Record
+
+- Maintained for a migrant worker.
+- Updated by a healthcare provider.
+
+## Department
+
+- Contains multiple healthcare providers.
 - Managed by the administration.
 
 ---
 
+# Outcome
+
+- Database requirements identified and documented.
+- 10 core tables finalized for implementation.
+- Relationships between entities defined clearly.
+- Schema prepared for ER diagram and database creation.
+- Foundation established for secure health record management.
