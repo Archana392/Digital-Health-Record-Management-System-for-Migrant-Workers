@@ -1,103 +1,117 @@
-# Smart Hospital Patient Management System
+# Digital Health Record Management System for Migrant Workers
 
 ## Project Overview
 
-The Smart Hospital Patient Management System is a web-based healthcare solution designed to efficiently manage patient records, doctor information, appointments, prescriptions, and hospital operations. The system enables hospitals to maintain healthcare services digitally while improving communication between patients, doctors, and administrators.
+The Digital Health Record Management System for Migrant Workers is a web-based healthcare solution designed to maintain and manage the health records of migrant workers digitally. The system enables healthcare providers, administrators, and migrant workers to access medical records, manage appointments, receive health notifications, and ensure continuity of healthcare services across different locations.
 
 ## Problem Statement
 
-Traditional hospital management processes often involve manual record keeping, appointment scheduling issues, and inefficient communication between patients and healthcare providers. Managing patient information manually can lead to errors, delays, and data redundancy. This system provides a centralized platform to streamline hospital operations and improve healthcare service delivery.
+Migrant workers often face difficulties in maintaining and accessing their medical records when they move between regions. The absence of a centralized health record system leads to fragmented healthcare information, delays in treatment, and inefficient healthcare service delivery. This system provides a centralized platform to securely manage and access digital health records.
 
 ## Objectives
 
-- To manage patient records efficiently.
-- To facilitate online appointment booking.
-- To maintain doctor and staff information digitally.
-- To provide secure user authentication.
-- To improve healthcare service delivery.
-- To reduce manual paperwork.
-- To generate reports for hospital administration.
+- To maintain digital health records of migrant workers.
+- To facilitate healthcare appointment management.
+- To provide secure access to health information.
+- To improve healthcare continuity across different locations.
+- To reduce manual record keeping.
+- To generate healthcare reports and analytics.
+- To enhance healthcare service delivery.
 
 ## Users
 
 ### 1. Admin
-- Manage patients.
-- Manage doctors.
+
+- Manage migrant worker records.
+- Manage healthcare providers.
 - Manage staff.
 - Manage appointments.
-- Manage departments.
+- Manage healthcare departments.
 - View system reports.
 
-### 2. Doctor
-- View patient details.
+### 2. Healthcare Provider
+
+- View migrant worker health records.
 - Manage appointments.
-- Update patient records.
+- Update health records.
 - Create prescriptions.
 - Manage availability.
 
-### 3. Patient
+### 3. Migrant Worker
+
 - Register and login.
+- View health records.
 - Book appointments.
-- View appointment history.
-- View prescriptions.
+- View medical history.
 - Receive notifications.
 
-### 4. Nurse / Staff
-- View assigned patients.
-- Update patient vitals.
-- Assist doctors.
-- Maintain patient records.
+### 4. Healthcare Staff
+
+- View assigned health records.
+- Update worker health information.
+- Assist healthcare providers.
+- Maintain digital records.
 
 ## Modules
 
 ### 1. Login Module
+
 - User authentication.
 - Secure login using JWT.
 - Role-based access control.
 
-### 2. Patient Management Module
-- Add patient details.
-- Update patient information.
-- View patient records.
+### 2. Migrant Worker Management Module
+
+- Add migrant worker details.
+- Update worker information.
+- View health records.
 - Manage medical history.
 
-### 3. Doctor Management Module
-- Add doctor details.
-- Update doctor information.
-- Manage doctor schedules.
-- Manage doctor availability.
+### 3. Healthcare Provider Management Module
+
+- Add healthcare provider details.
+- Update provider information.
+- Manage provider schedules.
+- Manage provider availability.
 
 ### 4. Appointment Management Module
+
 - Book appointments.
 - Update appointment status.
 - Track appointment history.
 - Manage appointment schedules.
 
-### 5. Prescription Management Module
-- Create prescriptions.
-- View prescriptions.
-- Manage medicine details.
+### 5. Health Record Management Module
+
+- Create health records.
+- View health records.
+- Update medical history.
+- Manage treatment details.
 
 ### 6. Notification Module
+
 - Send appointment reminders.
+- Health alert notifications.
 - Status update notifications.
-- Patient alerts.
 
 ### 7. Report Module
-- View patient records.
-- Generate appointment reports.
-- Monitor hospital activities.
+
+- View health records.
+- Generate healthcare reports.
+- Monitor healthcare activities.
 
 ### 8. Admin Management Module
-- Manage doctors.
-- Manage patients.
+
+- Manage healthcare providers.
+- Manage migrant workers.
 - Manage staff.
 - Manage departments.
-- Monitor hospital operations.
+- Monitor system operations.
 
 ## Technology Stack
 
 ### Frontend
+
 - React.js
 - HTML
 - CSS
@@ -105,10 +119,19 @@ Traditional hospital management processes often involve manual record keeping, a
 - Material UI
 
 ### Backend
+
 - Spring Boot
 - Java
 - Spring Security
 - JWT Authentication
 
 ### Database
+
 - MySQL
+
+## SIH Details
+
+- **Problem Statement ID:** SIH25083
+- **Problem Statement Title:** Digital Health Record Management System for Migrant Workers
+- **Theme:** MedTech / BioTech / HealthTech
+- **Organization:** Government of Kerala
