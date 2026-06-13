@@ -1,5 +1,3 @@
-# Project Objectives
-
 ## Primary Objectives
 
 - Create a centralized digital health record system.
