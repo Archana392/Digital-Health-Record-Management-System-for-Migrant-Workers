@@ -1,5 +1,3 @@
-# Problem Statement
-
 ## Introduction
 Migrant workers frequently move between different cities and states for employment opportunities. Due to frequent migration, their medical records are often scattered across multiple healthcare institutions.
 
